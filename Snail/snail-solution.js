@@ -74,8 +74,8 @@ snail = function(array) {
 
   // Note: Expects to be started from the top left item
   //   in the 2D trail, as instructed in the original
-  //   exercise. It will need to be rewritten to fit other
-  //   use cases.
+  //   exercise. The travel commands would need to be
+  //   rewritten to fit other use cases.
   while (snailFriend.travelEast()
     && snailFriend.travelSouth()
     && snailFriend.travelWest()
